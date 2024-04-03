@@ -1,0 +1,33 @@
+Script started on Wed Apr  3 15:03:43 2024
+Restored session: Wed Apr  3 14:50:46 EEST 2024
+[1m[7m%[27m[1m[0m                                                                                                                                               ]7;file://Maxims-MacBook-Pro.local/Users/maxxof/Desktop/HY/devops-docker/part1]2;maxxof@Maxims-MacBook-Pro]1;..-docker/part1]7;file://Maxims-MacBook-Pro.local/Users/maxxof/Desktop/HY/devops-docker/part1\[0m[27m[24m[J[01;32m➜  [36mpart1[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocekr   c ker run -d -it --name ex1. -3                       d  ddocker images[?1l>[?2004l
+]2;docker images]1;dockerREPOSITORY                          TAG       IMAGE ID       CREATED       SIZE
+ubuntu                              latest    2b7cc08dcdbb   5 weeks ago   69.2MB
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   3 years ago   83MB
+[1m[7m%[27m[1m[0m                                                                                                                                               ]7;file://Maxims-MacBook-Pro.local/Users/maxxof/Desktop/HY/devops-docker/part1]2;maxxof@Maxims-MacBook-Pro]1;..-docker/part1]7;file://Maxims-MacBook-Pro.local/Users/maxxof/Desktop/HY/devops-docker/part1\[0m[27m[24m[J[01;32m➜  [36mpart1[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker run -d -it --name ex1. -3 4e[?1l>[?2004l
+]2;docker run -d -it --name ex1-3 4e]1;dockerWARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+74a7384bf20a7c979c984368bfeb1e5f7d47ce3410a917bdba6c72f5e95929ca
+[1m[7m%[27m[1m[0m                                                                                                                                               ]7;file://Maxims-MacBook-Pro.local/Users/maxxof/Desktop/HY/devops-docker/part1]2;maxxof@Maxims-MacBook-Pro]1;..-docker/part1]7;file://Maxims-MacBook-Pro.local/Users/maxxof/Desktop/HY/devops-docker/part1\[0m[27m[24m[J[01;32m➜  [36mpart1[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker exec -it ex1-3 bash[?1l>[?2004l
+]2;docker exec -it ex1-3 bash]1;docker]0;root@74a7384bf20a: /usr/src/approot@74a7384bf20a:/usr/src/app# tail -f ./text.log
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-04-03 12:04:49 +0000 UTC
+2024-04-03 12:04:51 +0000 UTC
+2024-04-03 12:04:53 +0000 UTC
+2024-04-03 12:04:55 +0000 UTC
+2024-04-03 12:04:57 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-04-03 12:04:59 +0000 UTC
+2024-04-03 12:05:01 +0000 UTC
+2024-04-03 12:05:03 +0000 UTC
+2024-04-03 12:05:05 +0000 UTC
+2024-04-03 12:05:07 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-04-03 12:05:09 +0000 UTC
+^C
+]0;root@74a7384bf20a: /usr/src/approot@74a7384bf20a:/usr/src/app# exit    exit
+exit
+[1m[7m%[27m[1m[0m                                                                                                                                               ]7;file://Maxims-MacBook-Pro.local/Users/maxxof/Desktop/HY/devops-docker/part1]2;maxxof@Maxims-MacBook-Pro]1;..-docker/part1]7;file://Maxims-MacBook-Pro.local/Users/maxxof/Desktop/HY/devops-docker/part1\[0m[27m[24m[J[01;31m➜  [36mpart1[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Saving session...completed.
+
+Script done on Wed Apr  3 15:05:18 2024
