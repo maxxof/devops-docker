@@ -1,0 +1,13 @@
+Script started on Wed Apr  3 16:24:58 2024
+Restored session: Wed Apr  3 15:30:02 EEST 2024
+[1m[7m%[27m[1m[0m                                                                                                                                               ]7;file://Maxims-MacBook-Pro.local/Users/maxxof/Desktop/HY/devops-docker/part1]2;maxxof@Maxims-MacBook-Pro]1;..-docker/part1]7;file://Maxims-MacBook-Pro.local/Users/maxxof/Desktop/HY/devops-docker/part1\[0m[27m[24m[J[01;32m➜  [36mpart1[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hddocker run -it devopsdockeruh/pull_exercise[?1l>[?2004l
+]2;docker run -it devopsdockeruh/pull_exercise]1;dockerWARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+[1G[0JGive me the password: [23Gbasics
+You found the correct password. Secret message is:
+"This is the secret message"
+
+[1m[7m%[27m[1m[0m                                                                                                                                               ]7;file://Maxims-MacBook-Pro.local/Users/maxxof/Desktop/HY/devops-docker/part1]2;maxxof@Maxims-MacBook-Pro]1;..-docker/part1]7;file://Maxims-MacBook-Pro.local/Users/maxxof/Desktop/HY/devops-docker/part1\[0m[27m[24m[J[01;32m➜  [36mpart1[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Saving session...completed.
+
+Script done on Wed Apr  3 16:25:21 2024

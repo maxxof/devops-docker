@@ -1,0 +1,6 @@
+$ docker pull devopsdockeruh/simple-web-service:alpine
+-> alpine is much more lightweight
+$ docker run -d -it <img_id>
+$ docker exec -it <cont_id> sh
+$ tail -f ./text.log
+
