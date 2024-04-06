@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: ../../part1/material-applications/example-frontend/
+    ports:
+      - 5001:5001
+    container_name: frontend
+
+  backend:
+    build: ../../part1/material-applications/example-backend/
+    ports:
+      - 8080:8080
+    container_name: backend
