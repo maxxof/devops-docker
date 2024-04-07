@@ -1,0 +1,12 @@
+FROM golang:1.16.0
+
+WORKDIR /usr/src/app
+
+ENV REQUEST_ORIGIN=http://localhost:80
+
+COPY . .
+
+RUN go build
+
+CMD ./server
+
