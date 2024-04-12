@@ -20,6 +20,6 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v5
       with:
-        context: part3/ex3.1/express-app
+        context: part3/ex3.1
         push: true
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/nodejs-app:latest
