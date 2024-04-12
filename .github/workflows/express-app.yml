@@ -4,7 +4,7 @@ on:
     branches:
       - main
     paths:
-    - 'part3/ex3.1/express-app/**'
+    - 'express-app/**'
     - '.github/workflows/express-app.yml'
 
 jobs:
@@ -20,7 +20,7 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v5
       with:
-        context: express-app
+        #context: express-app
         file: express-app/Dockerfile
         push: true
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/nodejs-app:latest
