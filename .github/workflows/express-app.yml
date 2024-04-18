@@ -19,8 +19,8 @@ jobs:
         password: ${{ secrets.DOCKERHUB_TOKEN }}
     - name: Build and push
       uses: docker/build-push-action@v5
+      working-directory: ./express-app
       with:
-        working-directory: ./express-app
         #context: express-app
         file: express-app/Dockerfile
         push: true
