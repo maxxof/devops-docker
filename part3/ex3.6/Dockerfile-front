@@ -1,0 +1,21 @@
+FROM node:16.20.1-alpine AS builder
+
+WORKDIR /usr/src/app
+
+COPY package*.json .
+RUN npm install
+COPY . .
+RUN npm run build
+
+
+FROM node:16.20.1-alpine
+WORKDIR /usr/src/app
+COPY --from=builder /usr/src/app/build ./build
+RUN npm install -g serve
+
+EXPOSE 5001
+
+CMD ["serve", "-s", "-l", "5001", "build"]
+
+# before: 700MB
+# after: 128MB
